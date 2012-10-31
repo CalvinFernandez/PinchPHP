@@ -60,11 +60,11 @@
       <h2> Log in</h>
       <p> Please enter your username and password </p>
          <div data-role="fieldcontain" class="ui-hide-label">
-
-        <form action="index.php" method="post">
-	<input type="text" name="username" placeholder="Username"/><br>
-	<input type="password" name="password"placeholder="Password"/> <br>
-        <input type="submit" value="Login"/>
+			<form action="input.php" method="post">
+				<input type="text" name="Username" placeholder="Username"/><br>
+				<input type="password" name="Password" placeholder="Password"/><br>
+				<input type="submit" value="Submit"/>
+			</form>
         </div>
     </div><!-- /content -->
 
